@@ -38,7 +38,8 @@ for (var i = 0; i < myResult.length; i++) {
 
 // CREATE DYNAMIC TABLE.
 var table = document.createElement("table");
-table.setAttribute("class", "table");
+//table.setAttribute("class", "table");
+table.setAttribute("class", "table table-striped"); 
 
 // CREATE HTML TABLE HEADER ROW USING THE EXTRACTED HEADERS ABOVE.
 
